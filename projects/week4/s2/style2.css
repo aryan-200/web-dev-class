@@ -1,0 +1,54 @@
+*{
+	padding:0;
+	border:0;
+	margin:0;
+}
+
+header{
+	background-color:#81B214;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	padding:10px;
+	text-align:center;
+}
+
+.bd{
+	background-color:#FFCC29;
+	color:#206A5D;
+	margin-left:2px;
+	margin:4px;
+	
+}
+
+main{
+	font-size:20px;
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+}
+
+#howto{
+	text-align:center;
+	font-size:30px;
+	background-color:#F58634;
+	
+}
+
+#hunt{
+	background-color:#FFCC29;
+	color:#206A5D;
+}
+
+body{
+	background-color:#4CA1A3;
+	
+}
+
+footer{
+	font-size:20px;
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+}
+#sea{
+	background-color:#A5E1AD;
+	
+}
