@@ -1,0 +1,11 @@
+*{
+  border: 0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightblue;
+  }
+}

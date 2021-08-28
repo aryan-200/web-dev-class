@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+
+.flex{
+  display: flex;
+  /*flex-direction: column-reverse;*/
+ /*flex-wrap: row wrap;*/
+/*justify-content:space-between;*/
+ /*align-items: baseline;*/
+ /*align-content: stretch;*/
+  background-color: rgb(228, 10, 10);
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex > div{
+  background-color: rgb(255, 255, 255);
+  padding:20px;
+  margin:20px;
+  font-size: 20px;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+ }
+ 
