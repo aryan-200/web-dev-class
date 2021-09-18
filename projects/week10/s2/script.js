@@ -5,7 +5,7 @@ const ounceinput = document.getElementById('ounce')
 
 poundinput.addEventListener('input',function () {
   const epound = parseFloat(poundinput.value);
-  const egramm = epound/2.2046;
+  const egramm = epound/0.0022046;
   const ekg = epound/2.2046;
   const eounce = epound*16
   kginput.value = 'kg:'+ekg;
