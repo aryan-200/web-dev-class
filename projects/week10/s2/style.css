@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: #2B2E4A;
+  background-color: black;
 }
 
 input[type = 'number']{
@@ -38,4 +38,10 @@ input[type = 'number']{
   background-color: green;
   color:white;
   font-size: 5em;
+}
+
+h1{
+  color: white;
+  font-family: sans-serif;
+  font-size: 80px;
 }

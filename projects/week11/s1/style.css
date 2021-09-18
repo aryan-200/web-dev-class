@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #3DB2FF;
+  font-family: 'Gluten', cursive;
+}
+
+button{
+  background-color: #FF2442;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 20px;
+  font-size: 1.1rem;
+  font-family: 'Dancing Script', cursive;
+  transition: all .2s;
+  float:center;
+}
+
+button:hover{
+  transform:scale(1.2);
+  cursor: pointer;
+}
+
+#first{
+  display: inline;
+  border-radius: 10px;
+  color: white;
+  font-size: 30px
+}
+
+#second{
+  display: inline;
+  align:right;
+  border-radius: 10px;
+  color:white;
+  font-size: 30px;
+}
+
+.container{
+  background-color: #FFB830;
+  width: 80%;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  padding: 10px;
+  box-shadow: inset 0 0 5px gray;
+}
