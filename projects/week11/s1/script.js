@@ -3,51 +3,60 @@ let paper = document.getElementById('paper')
 let scissors = document.getElementById('Scissors')
 let first = document.getElementById('first')
 let second = document.getElementById('second')
+let reset = document.getElementById('reset')
 let rps = ['rock','paper','scissors']
 let user = 0;
-let pc = rps[Math.floor(Math.random() * 3)];
+
 
 rock.addEventListener('click',function () {
-  let user = rock;
-  if (pc == paper) {
-    let first = 'pc:' + first + 1;
+  let pc = rps[Math.floor(Math.random() * 3)];
+  user = "rock";
+  if (pc == "paper") {
+    first.innerHTML = 'pc:' + (first + 1);
     alert(pc , user , 'pcwin');
   }
-  if (pc == scissors ) {
-    let second = 'user:' + second + 1;
+  if (pc == "scissors" ) {
+    second.innerHTML = 'user:' + (second + 1);
     alert(pc , user , 'userwin');
   }
-  if (pc == rock ) {
+  if (pc == "rock" ) {
     alert(pc , user , 'draw');
   }
 })
 
 paper.addEventListener('click',function () {
-  let user = paper;
-  if (pc == rock) {
-    let first = 'user:' + first + 1;
-    alet(pc , user , 'userwin');
+  let pc = rps[Math.floor(Math.random() * 3)];
+  user = "paper";
+  if (pc == "rock") {
+    second.innerHTML = 'user:' + first + 1;
+    alert(pc , user , 'userwin');
   }
-  if (pc == scissors ) {
-    let first = 'pc:' + second + 1;
+  if (pc == "scissors" ) {
+    first.innerHTML = 'pc:' + second + 1;
     alert(pc , user , 'pcwin');
   }
-  if (pc == paper ) {
+  if (pc == "paper" ) {
     alert(pc , user , 'draw');
   }
 })
 
 scissors.addEventListener('click',function () {
-  let user = scissors ;
-  if (pc == rock) {
-    let first = 'pc:' + first + 1;
-    alet(pc , user , 'pcwin');
+  let pc = rps[Math.floor(Math.random() * 3)];
+  user = "scissors";
+  if (pc == "rock") {
+    first.innerHTML = 'pc:' + first + 1;
+    alert(pc , user , 'pcwin');
   }
-  if (pc == paper ) {
-    let first = 'user:' + second + 1;
+  if (pc == "paper" ) {
+    let second = 'user:' + second + 1;
     alert(pc , user , 'userwin');
   }
-  if (pc == scissors ) {
+  if (pc == "scissors" ) {
     alert(pc , user , 'draw');
   }
+})
+
+reset.addEventListener('click',function () {
+   first.innerHTML = 0;
+   second.innerHTML = 0;
 })

@@ -8,21 +8,16 @@ const seconde = document.getElementsByClassName('seconde')
 let time = 0;
 let interval;
 
-function watch() {
-  time++;
-  timer.innerHTML = time;
-}
-
 start.addEventListener('click',function() {
-  interval = setInterval(watch,1000);
+  interval = setInterval(seconde,1000);
 })
 
 reset.addEventListener('click',function() {
   clearInterval(interval);
   time = 0;
-  timer.innerHTML = 0;
+  timer.innerHTML = 00:00;
 })
 if (seconde == 60) {
-  minute = minute + 1;
-  seconde = 0;
+  minute.innerHTML = minute + 1;
+  seconde.innerHTML = 0;
 }

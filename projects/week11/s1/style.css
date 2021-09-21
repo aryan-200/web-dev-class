@@ -53,3 +53,11 @@ button:hover{
   padding: 10px;
   box-shadow: inset 0 0 5px gray;
 }
+
+#reset {
+  background: blue;
+}
+
+.p00{
+  text-align: center;
+}

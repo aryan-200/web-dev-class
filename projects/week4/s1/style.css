@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient( #8E2DE2, #4A00E0);
+}
+
+h1{
+  text-align: center;
+  font-size: 300%;
+  color: #1DB9C3;
+  text-shadow: -4px -4px 10px #1DB9C3;
+}
+
+h2{
+  color:#F56FAD;
+  text-shadow: 4px 4px 8px #F56FAD;
+}
+
+p{
+  color:#FF5C58;
+  text-shadow: 4px 4px 8px #FF5C58;
+}

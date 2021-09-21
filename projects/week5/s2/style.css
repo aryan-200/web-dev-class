@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 body{
-  background-color:yellow;
+    background-image: linear-gradient(#fc00ff, #00dbde);
+    font-family: sans-serif;
+    color: rgb(215, 124, 29);
 }
 .gol{
   text-align:  center;
-  background-color: #FFD371;
+  background-image: linear-gradient(#6a3093, #a044ff);
   width:400px;
   height:500px;
   display: block;
@@ -30,22 +32,19 @@ h1{
 }
 .olg{
   text-align: center;
-  background-color: #9DDAC6;
   width:400px;
   height:500px;
   display: block;
+  background-image: linear-gradient(#6a3093, #1F1C18);
 }
 
 
 #hd{
-  background-color: #FFF5B7;
-  color: cyan;
-  /*text-shadow: 2px 2px 8px;*/
+  background-image: linear-gradient(#00C9FF, #92FE9D);
 
 }
 footer{
-    background-color: black;
-    color:white;
-    shadow:2px 2px 8px;
+    background-image: linear-gradient(#004FF9, #FFF94C);
+    color: rgb(241, 14, 103);
     text-align: center;
 }

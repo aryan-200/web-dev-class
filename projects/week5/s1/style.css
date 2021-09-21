@@ -9,49 +9,36 @@ img{
   margin-right: auto;
   display: block;
 }
-input[type=text] {
+input[type=search] {
 
-  width: 70%;
+  width: 40%;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 108px;
   font-size: 16px;
   background-color: white;
   padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
   display: block;
   margin-left:auto;
   margin-right: auto;
+  top: 50%;
+  line-height: 20px;
 }
-input[type=text]:focus {
+input[type=search]:focus {
   background-color: lightblue;
 }
-input[type=text]:focus {
 
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100px;
-  /*background-color: #f1f1f1;*/
-}
-
-li a {
-  display: inline-block;
-  color: #000;
-  padding: 5px 12px;
-  text-decoration: none;
-  font-size: 18px;
-  text-align: left;
+.logo p {
+    margin:0;
+    padding:0;
+    margin-left: 10px;
+    font-size: 15px;
+    display: inline-block;
+    line-height: 40px;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-li a.active {
-  background-color: #F55C47;
-  color: white;
-}
-
-li a:hover:not(.active) {
-  background-color: #F55C47;
-  color: white;
+img{
+  width: 18%;
 }

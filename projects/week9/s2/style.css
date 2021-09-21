@@ -33,11 +33,7 @@ font-size: 20px;
 #timer{
   color: #4A403A;
   background-color: #FFC069;
-  border-radius: 90px;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
-  border-radius: 50%;
+
   font-size: 50px;
   text-align: center;
 }
