@@ -33,7 +33,7 @@ paper.addEventListener('click',function () {
   }
   if (pc == "scissors" ) {
     first.innerHTML = 'pc:' + second + 1;
-    alert(pc , user , 'pcwin');
+    alert(pc , user , 'pcwin';
   }
   if (pc == "paper" ) {
     alert(pc , user , 'draw');
@@ -48,7 +48,7 @@ scissors.addEventListener('click',function () {
     alert(pc , user , 'pcwin');
   }
   if (pc == "paper" ) {
-    let second = 'user:' + second + 1;
+    second.innerHTML = 'user:' + second + 1;
     alert(pc , user , 'userwin');
   }
   if (pc == "scissors" ) {

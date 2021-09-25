@@ -1,31 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icons8-stopwatch-256.png">
+  </head>
+  <body>
+    <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stopwatch</title>
+    <title>Gold Stopwatch</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap"rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"rel="stylesheet"/>
-    <link rel="icon" href="img/icons8-stopwatch-256.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap" rel="stylesheet"/>
   </head>
 
   <body>
     <div class="stopwatch">
+      <h1><span class="gold">STOPWATCH</span></h1>
       <div class="circle">
-        <p class="timer" id="display"><span class="minute">00</span><span>:</span><span class="seconde">00</span></p>
+        <span class="time" id="display">00:00:00</span>
       </div>
 
       <div class="controls">
         <button class="buttonPlay">
-          <img id="playButton" src="img/icons8-play-96.png" />
+          <p id="playButton">play</p>
 
-
-          <img id="pauseButton" src="img/icons8-pause-90.png" />
+          <p id="pauseButton">pause</p>
         </button>
 
         <button class="buttonReset">
-          <img id="resetButton" src="img/icons8-stop-90.png" />
+          <p id="resetButton">reset</p>
         </button>
       </div>
     </div>
